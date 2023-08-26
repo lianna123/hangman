@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>hangman</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="beige">
+    <img src=hangman0.png id="pic">
+  </div>
+  <div class="white">
+    <p id="wrong"></p>
+    <table>
+      <tr>
+        <td><button onclick="letter('a')">a</button></td>
+        <td><button onclick="letter('b')">b</button></td>
+        <td><button onclick="letter('c')">c</button></td>
+        <td><button onclick="letter('d')">d</button></td>
+        <td><button onclick="letter('e')">e</button></td>
+        <td><button onclick="letter('f')">f</button></td>
+        <td><button onclick="letter('g')">g</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="letter('h')">h</button></td>
+        <td><button onclick="letter('i')">i</button></td>
+        <td><button onclick="letter('j')">j</button></td>
+        <td><button onclick="letter('k')">k</button></td>
+        <td><button onclick="letter('l')">l</button></td>
+        <td><button onclick="letter('m')">m</button></td>
+        <td><button onclick="letter('n')">n</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="letter('o')">o</button></td>
+        <td><button onclick="letter('p')">p</button></td>
+        <td><button onclick="letter('q')">q</button></td>
+        <td><button onclick="letter('r')">r</button></td>
+        <td><button onclick="letter('s')">s</button></td>
+        <td><button onclick="letter('t')">t</button></td>
+        <td><button onclick="letter('u')">u</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="letter('v')">v</button></td>
+        <td><button onclick="letter('w')">w</button></td>
+        <td><button onclick="letter('x')">x</button></td>
+        <td><button onclick="letter('y')">y</button></td>
+        <td><button onclick="letter('z')">z</button></td>
+      </tr>
+    </table>
+    <p id="message"></p>
+    <p id="word"></p><br>
+    <button class="new" onclick="newword()">new word</button>
+  </div>
+  <p class="end">hangman<br>made by anna li</p>
+  <script src="script.js"></script>
+</body>
+
+</html>

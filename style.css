@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Courier New", monospace;
+  background-image: linear-gradient(to right, #fff9f0 50%, white 50%);
+  color: #634343;
+}
+
+.beige {
+  background-color: #fff9f0;
+  width: 50%;
+  height: 100%;
+}
+
+img {
+  width: 49%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.white {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+table button {
+  font-family: "Courier New", monospace;
+  background-color: white;
+  border: 0px;
+  font-size: 2vw;
+  padding-right: 4vw;
+  padding-bottom: 1vw;
+  color: #634343;
+}
+
+tr {
+  padding-right: 38px;
+  padding-bottom: 10px;
+}
+
+#word {
+  text-align: center;
+  font-size: 2vw;
+}
+
+.new {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  background-color: white;
+  border: 0px;
+  font-size: 1.75vw;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #634343;
+}
+
+#wrong {
+  font-size: 2vw;
+  position: relative;
+  text-align: center;
+}
+
+#message {
+  text-align: center;
+  font-size: 2vw;
+  position: relative;
+}
+
+.end {
+  text-align: right;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0%;
+  right: 20px;
+}

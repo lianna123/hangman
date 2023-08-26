@@ -41,8 +41,7 @@ const arr = [
   "butterfly", "pineapple", "tentacles", "perforate", "attribute",
   "galaxical", "merciless", "chemistry", "highlight", "sticklers",
   "footballs", "asparagus", "showering", "skydiving", "malicious",
-  "hysterical", "reasonable", "illiterate", "harmonious", "enterprise", // 
-10
+  "hysterical", "reasonable", "illiterate", "harmonious", "enterprise", // 10
   "nutritious", "adolescent", "equivalent", "undeniable", "grapefruit",
   "rewatching", "tablespoon", "metronomes", "electronic", "apostrophe",
   "scientists", "mechanical", "instituted", "constitute", "milleniums", 

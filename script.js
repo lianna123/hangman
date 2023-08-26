@@ -126,17 +126,17 @@ function letter(lett) {
 
 function change() {
   let pic = document.getElementById('pic').src;
-  if (pic == "https://hangman.annali135.repl.co/hangman0.png") {
+  if (pic == "https://lianna123.github.io/hangman/hangman0.png") {
     document.getElementById('pic').src = "hangman1.png";
-  } else if (pic == "https://hangman.annali135.repl.co/hangman1.png") {
+  } else if (pic == "https://lianna123.github.io/hangman/hangman1.png") {
     document.getElementById('pic').src = "hangman2.png";
-  } else if (pic == "https://hangman.annali135.repl.co/hangman2.png") {
+  } else if (pic == "https://lianna123.github.io/hangman/hangman2.png") {
     document.getElementById('pic').src = "hangman3.png";
-  } else if (pic == "https://hangman.annali135.repl.co/hangman3.png") {
+  } else if (pic == "https://lianna123.github.io/hangman/hangman3.png") {
     document.getElementById('pic').src = "hangman4.png";
-  } else if (pic == "https://hangman.annali135.repl.co/hangman4.png") {
+  } else if (pic == "https://lianna123.github.io/hangman/hangman4.png") {
     document.getElementById('pic').src = "hangman5.png";
-  } else if (pic == "https://hangman.annali135.repl.co/hangman5.png") {
+  } else if (pic == "https://lianna123.github.io/hangman/hangman5.png") {
     document.getElementById('pic').src = "hangman6.png";
     document.getElementById('message').innerHTML = "sorry, the word was";
     let temp = "";
